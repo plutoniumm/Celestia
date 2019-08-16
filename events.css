@@ -3,8 +3,12 @@
      padding: 20px 0 20px;
      position: relative;
      color: white;
+     text-align: center;
    }
    
+   sup {position: relative;
+  left: -0.35em; }
+
    .timeline:before {
      top: 0;
      bottom: 0;
