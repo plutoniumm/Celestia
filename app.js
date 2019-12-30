@@ -40,11 +40,7 @@ particlesJS('particles-js',
         }
       },
       "line_linked": {
-        "enable": true,
-        "distance": 150,
-        "color": "#ffffff",
-        "opacity": 0,
-        "width": 0.5
+        "enable": false
       },
       "move": {
         "enable": true,
@@ -64,24 +60,17 @@ particlesJS('particles-js',
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
-          "mode": "repulse"
+          "enable": false
         },
         "onclick": {
-          "enable": false,
-          "mode": "push"
+          "enable": false
         },
         "resize": false
       },
     },
     "retina_detect": true,
     "config_demo": {
-      "hide_card": false,
-      "background_color": "#b61924",
-      "background_image": "",
-      "background_position": "50% 50%",
-      "background_repeat": "no-repeat",
-      "background_size": "cover"
+      "hide_card": true
     }
   }
 
