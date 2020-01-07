@@ -2,7 +2,7 @@ var observations = [
     {
   backgrounds: "https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg",
   Name:"All Night Observations",
-  icon: "fas fa-telescope",
+  icon: "fas fa-moon",
   subtext:"Joining drama as a student consultant is a great way to boost your CV with relevant work- and consulting experience, while expanding your professional network. Our consultants get a hands on experience working with clients on a wide range of topics and issues employing strategies to achieve the the firms objective. Moreover, you will expand your social network by meeting like-minded students from different countries, study backgrounds and universities.",
 },
 {
