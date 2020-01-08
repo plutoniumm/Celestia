@@ -35,7 +35,7 @@ var observations = [
 
 function Obs(observations){
     return `
-    <div class="option active" style="--optionBackground:url('${observations.backgrounds}');">
+    <div class="option" style="--optionBackground:url('${observations.backgrounds}');">
                      <div class="shadow"></div>
                      <div class="label">
                         <div class="icon">
