@@ -23,11 +23,11 @@
 }
 
 .bloglink{
-  color: wheat;
+  color: cyan;
 }
 
 .bloglink:hover{
-  color: rgb(255, 200, 97);
+  color: rgb(57, 166, 255);
 }
 
 .col2{
@@ -47,6 +47,11 @@ p{
 
 .fa:hover{
   color: rgb(139, 139, 139);
+}
+
+.name{
+  color: rgb(236, 255, 127);
+  display: inline;
 }
 
 #universe {
