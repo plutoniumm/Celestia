@@ -6,7 +6,7 @@ particlesJS('particles-js',
         "value": 600,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 600
         }
       },
       "color": {
@@ -46,13 +46,11 @@ particlesJS('particles-js',
         "enable": true,
         "speed": 1,
         "direction": "none",
-        "random": false,
+        "random": true,
         "straight": false,
         "out_mode": "out",
         "attract": {
-          "enable": false,
-          "rotateX": 600,
-          "rotateY": 1200
+          "enable": false
         }
       }
     },

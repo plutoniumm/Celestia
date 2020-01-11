@@ -4,10 +4,10 @@ Nav =`
 <div id="background">
 </div>
 <a style="width: 0%;" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-<a href="#">About</a>
-<a href="#">Services</a>
-<a href="#">Clients</a>
-<a href="#">Contact</a>
+<a href="index.html">Index</a>
+<a href="events.html">Events</a>
+<a href="observations.html">Observations</a>
+<a href="about.html">About</a>
 </div>
 
 <div id="main">
@@ -15,6 +15,8 @@ Nav =`
 </div>
 `
 document.getElementById("nav-barr").innerHTML = Nav;
+// document.getElementById("nav-barr").style.height = "100%";
+// document.getElementById("nav-barr").style.z-index = 1;
 
 function openNav() {
   document.getElementById("data").style.marginLeft = "-150px";

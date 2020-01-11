@@ -1155,7 +1155,7 @@ h1 span, #sedscelestia h1 a {
   font-size: 14px; }
 
 #data{
-  z-index: 99;
+  z-index: 999999;
   position: fixed;
   opacity: 1;
   top: 49px;
