@@ -1,8 +1,8 @@
-
 #particles-js{
   width: 100%;
-  height: 240%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.1);
+  position: fixed;
 }
 
 .text{
@@ -98,7 +98,7 @@ p{
     margin-left: -50px;
 }
 
-.card:hover {
+.card:hover, .card:checked {
   transform: translateY(-20px);
   transition: 0.4s ease-out;
 }
@@ -174,7 +174,7 @@ svg {
   z-index: 1;
   position: absolute;
   width: 100%;
-  height: inherit;
+  height: auto;
   top: 0px;
   background-position: center 40%;
   background-repeat: no-repeat;
