@@ -81,28 +81,10 @@ body {
 .orbit .orbit {
   animation-name: suborbit; }
 
-#solar-system:hover > .orbit{
-  animation-name: orbit suborbit;
-  animation-play-state: paused;
-}
-
 #solar-system .pos{
   animation-name: inverse;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
-
-#solar-system:hover .pos{
-  transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
-  animation-play-state: paused;
-}
-
-#solar-system:hover .planet{
-  animation-play-state: paused;
-}
-
-#solar-system:hover #earth .orbit{
-  animation-play-state: paused;
 }
 
 .pos {
