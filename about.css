@@ -75,9 +75,11 @@ p{
 /*People cards start*/
    .container1 {
   position: relative;
+  overflow-x: auto;
   z-index: 200;
   height: 300px;
-  width: 1200px;
+  max-width: 300px;
+  max-width: 1000px;
   top: 40px;
   left: calc(50% - 550px);
   display: flex;
@@ -96,11 +98,11 @@ p{
 }
 
 .card:not(:first-child) {
-    margin-left: -50px;
+    margin-left: -70px;
 }
 
 .card:hover, .card:checked {
-  transform: translateY(-20px);
+  transform: translateX(-20px);
   transition: 0.4s ease-out;
 }
 
