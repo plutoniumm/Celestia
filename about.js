@@ -1,28 +1,47 @@
 var coordinators = [
     {
-  backgrounds: "./img/allnight.jpeg",
-  Name:"All Night Observations",
-  post: "fas fa-moon",
+  Name:"Venugopalan Iyengar",
+  post: "President",
 },
 {
-    backgrounds: "https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg",
-    Name:"Star Party",
-    post: "fas fa-sun",
+    Name:"Vidit Parab",
+    post: "Vice President",
 },
 {
-    backgrounds: "./img/eclipse.jpeg",
-    Name:"Eclipses",
-    post: "far fa-circle",
+    Name:"Saransh Gokhale",
+    post: "Treasurer",
 },
 {
-    backgrounds: "./img/meteors.jpeg",
-    Name:"Meteor Showers",
-    post: "fas fa-meteor",
+    Name:"Soham Deshpande",
+    post: "Sub Coordinator",
 },
 {
-    backgrounds: "https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg",
-    Name:"Celestial Bodies",
-    post: "fas fa-globe-europe",
+    Name:"Aaditee Juyal",
+    post: "Lectures Head",
+},
+{
+    Name:"Avdhoot Bhandare",
+    post: "Observations Head",
+},
+{
+    Name:"Harshvardhan C",
+    post: "Projects Head",
+},
+{
+    Name:"Devesh Dimble",
+    post: "Publicity Head",
+},
+{
+    Name:"Aaditee Juyal",
+    post: "Lectures Head",
+},
+{
+    Name:"Shirin Kaushik",
+    post: "Vice President <br> SEDS India",
+},
+{
+    Name:"Dhruv Nagpal",
+    post: "Projects Head <br> SEDS India",
 }
 
 ];
@@ -30,8 +49,13 @@ var coordinators = [
 
 function Obs(coordinators){
     return `
-    <div>
-            <p>${coordinators.Name} - ${coordinators.post}</p>
+    <div class="card">
+        <h3 class="title">${coordinators.Name}</h3>
+        <div class="bar">
+            <div class="emptybar"></div>
+            <div class="filledbar"></div>
+        </div>
+        <h4 class="position">${coordinators.post}</h4>
     </div>
     `
 
