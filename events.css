@@ -333,17 +333,6 @@ sup {
 	margin-top: 5px
 }
 
-#universe {
-	z-index: 1;
-	position: absolute;
-	width: 100%;
-	height: auto;
-	background-position: center 40%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover
-}
-
 body {
 	background-color: #08090a;
 	background-attachment: fixed
@@ -357,8 +346,7 @@ i {
 	margin-top: 17px
 }
 
-#universe {
-  background-image: url(img/Back.jpg); }
 
   body {
     background-image: url(img/Bodyback.jpg); }
+

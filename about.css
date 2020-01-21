@@ -189,18 +189,6 @@ svg {
 }
 /*People cards end */
 
-#universe {
-  z-index: 1;
-  position: absolute;
-  width: auto;
-  height: auto;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background-position: center 40%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-image: url(img/Back.jpg); }
 body {overflow: auto;
     background-color: #08090A;
     background-attachment: fixed;
