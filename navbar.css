@@ -11,20 +11,17 @@
 .sidebar{
     padding-top: 40px;
     text-align: center;
-    background-color:hsla(0, 0%, 100%, .08);
+    background-color: rgba(51, 51, 51, 0);
     backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
 }
 
 .sidebar a{
     display: block;
     width: 100%;
-    /* padding: 20px; */
+    padding: 20px;
     text-decoration: none; 
     color: rgba(255, 255, 255, 0.8);
     filter : blur(0px);
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .sidebar a:hover{
