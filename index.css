@@ -217,20 +217,11 @@ body {
 .zoom-large #solar-system {
   width: 100%; }
 
-.zoom-large.view-2D .scale-stretched #solar-system {
-  font-size: 26%; }
-
 .zoom-large.view-3D .scale-stretched #solar-system {
   font-size: 62%; }
 
-.zoom-large.view-2D .scale-d #solar-system {
-  font-size: 22%; }
-
 .zoom-large.view-3D .scale-d #solar-system {
   font-size: 48%; }
-
-.zoom-large.view-2D .scale-s #solar-system {
-  font-size: 7%; }
 
 .zoom-large.view-3D .scale-s #solar-system {
   font-size: 14%; }
@@ -363,8 +354,7 @@ body {
   height: 210em;
   margin-top: -105em;
   margin-left: -105em; }
-
-
+  
   .set-speed dl.infos dd span:after {
   content: 'Orbit Velocity'; }
 
@@ -625,7 +615,6 @@ body {
   /* RIGHT */ }
 
 /* --------------------------------------------------------------------------- saturn ring */
-
 
 #saturn .ring           { animation-name:     shadow-saturn-ring; }
 
