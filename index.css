@@ -6,14 +6,44 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, a, blo
   margin: 0;
   padding: 0; }
 
+
+
+a, a:active, a:hover, a:visited{
+  text-decoration: none;
+}
+a
+
+
   #particles-js{
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.1);
+
   }
 
   ul, li {
   width: 10%;
+
+  }  
+
+#button{
+  width: 100px;
+  padding: 0;
+  text-align: center;
+  display: inline-block;
+  border: thin white;
+  border-radius: 5%;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+}
+
+#button:hover{
+
+
+  transition: all 0.3s;
+
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -111,7 +141,11 @@ body {
   background-color: #FB7209;
   background-repeat: no-repeat;
   background-size: cover;
+
   box-shadow: 0 0 60px rgba(255, 160, 60, 0.4);
+
+  box-shadow: 0 0 60px rgba(255, 160, 60, 0.4); 
+
   opacity: 0.9;}
 
 .planet {
@@ -676,7 +710,9 @@ body {
   top: -1%; }
 
 #mercury .planet {
+
 /*animation-name: shadow-mercury;*/ }
+
 
 @keyframes shadow-mercury {
   0% {
@@ -908,8 +944,7 @@ body {
 
 #saturn .ring           { animation-name:     shadow-saturn-ring; }
 
-@keyframes
-shadow-saturn-ring{ 0%   { box-shadow: inset -16px  0      4px   rgba(20, 40, 50, 0.45); opacity: .4; }
+@keyframes shadow-saturn-ring{ 0%   { box-shadow: inset -16px  0      4px   rgba(20, 40, 50, 0.45); opacity: .4; }
                   25%    { box-shadow: inset -5px   -30px   12px  rgba(20, 40, 50, 0.3);  opacity: 1; }
                   25.01% { box-shadow: inset 5px    -30px   12px  rgba(20, 40, 50, 0.3);  opacity: 1; }
                   50%    { box-shadow: inset 16px   0      4px   rgba(20, 40, 50, 0.45);  opacity: .4; }
@@ -1218,6 +1253,7 @@ h1 {
   transition-delay: .7s; }
 /* --------------------------------------------------------------------------- images */
 body {
+
   background-image: url(img/Bodyback.jpg); }
 
 #universe {
@@ -1304,3 +1340,4 @@ body {
 @media screen and (min-width: 1600px) {
   .zoom-close .scale-d #solar-system {
     margin-left: -120%; } }
+
