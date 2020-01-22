@@ -1,6 +1,16 @@
-$(window).on('load', function(){
+$(window).load(function(){
 
-  var solarsys = $("#solar-system");
+  var body = $("body"),
+      universe = $("#universe"),
+      solarsys = $("#solar-system");
+
+  // 3D VIEW
+  var init = function() {
+    body.removeClass('view-2D opening').addClass("view-3D").delay(2000).queue(function() {
+      $(this).removeClass('hide-UI').addClass("set-speed");
+      $(this).dequeue();
+    });
+  }; 
 
 // Names Activity
   $("#data a").click(function(e) {
