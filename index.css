@@ -1163,12 +1163,6 @@ h1 span, #sedscelestia h1 a {
   top: 49px;
   padding: 16px; }
 
-.data-close #data {
-  left: -100%; }
-
-.data-open #data {
-  left: 0px; }
-
 #data a {
   margin-bottom: 1px;
   padding: 6px 10px;
@@ -1292,7 +1286,4 @@ body {
 @media screen and (min-width: 1000px) {
   #universe {
     font-size: 73%; }
-
-  .data-open #data, .data-close #data {
-    left: 0px; }
   }

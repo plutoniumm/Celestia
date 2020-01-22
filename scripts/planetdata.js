@@ -1,20 +1,27 @@
 const planets = [
       {
     Planet:"mercury"
-  },{
+  },
+{
       Planet:"venus"
-    },{
+    },
+{
       Planet:"earth",
       Moon: "moon"
-    },{
+    },
+{
       Planet:"mars"
-    },{
+    },
+{
       Planet:"jupiter"
-    },{
+    },
+{
       Planet:"saturn"
-    },{
+    },
+{
       Planet:"uranus"
-    },{
+    },
+{
       Planet:"neptune"
     }];
 
