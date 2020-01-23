@@ -6,23 +6,22 @@
 }
 
 .text{
-    background-color:  rgba(255, 255, 255, 0);
-    color: white;
-    padding: 4px;
-    margin: 10px;
-    padding-bottom: 30px;
+  background-color:  rgba(255, 255, 255, 0);
+  color: white;
+  padding: 4px;
+  margin: 10px;
 }
 
 .group_photo {
-    align-items: center;
-    border-radius: 5%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: auto;
-    border-radius: 50px;
-    box-shadow: 0 5px #8D8382;
+  align-items: center;
+  border-radius: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0 5px #8D8382;
 }
 /*Group photo clicking effect*/
 .group_photo:hover {background-color: #3e8e41}
@@ -32,6 +31,7 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
 .bloglink{
   color: wheat;
 }
@@ -43,19 +43,20 @@
 .col2{
   padding-left: 30px;
   font-family: arial, helvetica, sans-serif;
-   -webkit-backdrop-filter: blur(1px);
-   backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
   background-color: rgba(255, 255, 255, .1);
   width:310px;
   position: relative;
   margin-left: 150px;
 }
-.col-md-7{
+
+.about-flaunt{
   -webkit-backdrop-filter: blur(2px);
-   backdrop-filter: blur(2px);
-   background-color: rgba(255, 255, 255, .05);
+  backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, .05);
   position: relative;
-  margin-left: 250px;
+  width: 100%;
 }
 
 p{
@@ -73,22 +74,24 @@ p{
 }
 
 /*People cards start*/
-   .container1 {
+.container1 {
   position: relative;
-  overflow-x: auto;
   z-index: 200;
-  height: 300px;
-  max-width: 300px;
+  height: 200px;
   max-width: 1000px;
-  top: 40px;
-  left: calc(50% - 550px);
+  top: -10px;
+  align-self: center;
+  align-content: center;
+  align-items: center;
   display: flex;
+  margin: auto;
 }
 
 .card {
+  margin-left: 10px;
   display: flex;
-  height: 180px;
-  width: 160px;
+  height: 200px;
+  width: 200px;
   background-color: #17141d;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
@@ -102,13 +105,13 @@ p{
 }
 
 .card:hover, .card:checked {
-  transform: translateX(-20px);
+  transform: translateX(-25px);
   transition: 0.4s ease-out;
 }
 
 .card:hover ~ .card {
   position: relative;
-  left: 50px;
+  left: 60px;
   transition: 0.4s ease-out;
 }
 
@@ -118,6 +121,10 @@ p{
   position: absolute;
   left: 10px;
   top: 0px;
+}
+
+.title:hover{
+  z-index: 9999999;
 }
 
 .seds {
@@ -148,6 +155,7 @@ p{
   background-color: #2e3033;
   width: 100%;
   height: 100%;
+  position: absolute;
 }
 
 .filledbar {
@@ -189,7 +197,19 @@ svg {
 }
 /*People cards end */
 
-body {overflow: auto;
-    background-color: #08090A;
-    background-attachment: fixed;
-    background-image: url(img/Bodyback.jpg); }
+body {
+  overflow: auto;
+  background-color: #08090A;
+  background-attachment: fixed;
+  background-image: url(img/Bodyback.jpg); 
+}
+
+@media only screen and (max-width: 768px) {
+  .about-flaunt{width: 100%;padding: 20px;}
+  .title{font-size: 17px;}
+  .group_photo{border-radius: 20px;}
+  .card{height: 160px;}
+  .filledbar{top: -35px;}
+  .emptybar{top: -35px;}
+  .position{top: 60px;}
+}
