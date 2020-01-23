@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <style>
-  a:visited{text-decoration: none;
-            color: white;}
-  </style>
   <title>SEDS Celestia | Homepage</title>
   <link rel="stylesheet" href="./index.css">
   <link rel="stylesheet" href="./navbar.css">
 <meta charset="UTF-8">
 </head>
-  <body class="opening hide-UI view-2D zoom-large data-close controls-close">
+  <body class="opening set-speed view-3D zoom-large">
 
     <div id="particles-js">
     <div id="sedscelestia">
-      <h1 style="font-size: 200%;width: 50%; margin: auto">SEDS Celestia</h1>
+      <h1>SEDS Celestia</h1>
     </div>
     <div id="data">
       <ul>
@@ -39,20 +35,17 @@
       </div>
     </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-    <script type="text/javascript">
-    if (typeof jQuery == 'undefined') {
-      document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
-    }
-    </script>
-    <script src="js/scripts.min.js"></script>
-    <script src="particles.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="./scripts/particles.min.js"></script>
     </div>
 <!-- partial -->
-<script  src="./scripts/script.js" async></script>
+<script  src="./scripts/script.js"></script>
 <script  src="./scripts/app.js" async></script>
-<script  src="./scripts/planetdata.js" async></script>
-<script src="scripts/nav-bar-index.js" async></script>
+<script  src="./scripts/planetdata.js"></script>
+<script src="scripts/nav-bar.js" async></script>
 <!-- <script src="./navbar.js?id=index" id="nav-bar"></script> -->
 </body>
 </html>

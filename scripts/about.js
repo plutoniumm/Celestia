@@ -24,16 +24,12 @@ var coordinators = [
     post: "Observations Head",
 },
 {
-    Name:"Harshvardhan C",
+    Name:"Harsh -vardhan C",
     post: "Projects Head",
 },
 {
     Name:"Devesh Dimble",
     post: "Publicity Head",
-},
-{
-    Name:"Aaditee Juyal",
-    post: "Lectures Head",
 },
 {
     Name:"Shirin Kaushik",
@@ -58,7 +54,6 @@ function Obs(coordinators){
         <h4 class="position">${coordinators.post}</h4>
     </div>
     `
-
 }
 
 document.getElementById("cordis").innerHTML = `
