@@ -5,7 +5,7 @@
 	position:relative;
 overflow: inherit;
 }
-	
+
 #particles-js{
 	position: fixed;
 	top: 0;
@@ -34,12 +34,12 @@ overflow: inherit;
 	overflow: hidden;
 }
 
-card {
+.card {
 	height: 450px;
 	width: 900px;
 	margin: 200px auto;
     }
-    
+
     /* Image on the left side */
     .thumbnail {
 	left: 30px;
@@ -47,7 +47,7 @@ card {
 	height: 500px;
 	width: 500px;
     }
-    
+
     /*object-fit: cover; */
     /*object-position: center; */
     img.left {
@@ -60,7 +60,7 @@ card {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
     }
-    
+
     /* Right side of the card */
     .right {
 	margin-left: 590px;
@@ -80,19 +80,19 @@ h1 {
 	width: 180px;
 	border-radius: 20px;
     }
-    
+
     h2 {
 	padding-top: 8px;
 	margin-left: 15px;
 	text-align: left;
 	font-size: 0.9rem;
     }
-    
+
     .separator {
 	margin-top: 10px;
 	border: 1px solid #C3C3C3;
     }
-    
+
     p {
 	padding-top: 10px;
 	font-size: 0.95rem;
@@ -107,7 +107,7 @@ h1 {
 	font-size: 5rem;
 	color: #C3C3C3;
     }
-    
+
     h6 {
 	position: absolute;
 	left: 35px;
@@ -294,32 +294,39 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE    
 
 @media only screen and (max-width: 768px) {
 
-	
+
 	/* The card */
 	.card {
 	  height: 350px;
 	  width: 700px;
-	  margin: 200px auto;
+	  margin: 200px;
 	}
-	
+
 	/* Image on the left side */
 	.thumbnail {
-	  left: 40px;
-	  top: -50px;
+	  left: 230px;
+	  top: -150px;
 	  height: 250px;
 	  width: 250px;
 	}
-	
+
 	/* Right side of the card */
 	.right {
-	  margin-left: 350px;
+	  margin-left: 0px;
+		margin-top: auto;
 	}
-	
+
 	.box {
 		display: inline-block;
 		padding-left: 75px;
 	}
-	
+
+	.separator {
+	margin-top: 145px;
+	border: 1px solid #C3C3C3;
+	width: 102.65%;
+	}
+
 	body .options {
 		display: flex;
 		flex-direction: row;
@@ -328,8 +335,8 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE    
 		min-width: 900px;
 		height:400px
 	}
-	
-	
+
+
 	body .options .option {
 		position: relative;
 		overflow: hidden;
@@ -340,31 +347,74 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE    
 		cursor: pointer;
 		transition: .5s cubic-bezier(.05, .61, .41, .95)
 	}
-	
+	h1 {
+		position: relative;
+		bottom: -95px;
+		padding-top: 15px;
+		font-size: 1.3rem;
+		color: #4B4B4B;
+		text-align: center;
+		right: 110px;
+	    }
+
+	h2 {
+position: absolute;
+bottom: -5px;
+margin-left: 15px;
+font-size: 0.9rem;
+	}
+	h5 {
+position: absolute;
+left: 33px;
+bottom: -100px;
+font-size: 5rem;
+color: #C3C3C3;
+margin-left: -30px;
+	}
+
+	h6 {
+position: absolute;
+left: 35px;
+bottom: -70px;
+font-size: 2rem;
+color: #C3C3C3;
+margin-left: -35px;
+	}
+
+	.author {
+		background-color: #9ECAFF;
+		height: 30px;
+		width: 180px;
+		margin-left: 250px;
+		border-radius: 20px;
+		position: absolute;
+		bottom:180px;
+	    }
+
 	body .options .option:nth-child(1) {
 		--defaultBackground: #ed5565
 	}
-	
+
 	body .options .option:nth-child(2) {
 		--defaultBackground: #fc6e51
 	}
-	
+
 	body .options .option:nth-child(3) {
 		--defaultBackground: #ffce54
 	}
-	
+
 	body .options .option:nth-child(4) {
 		--defaultBackground: #2ecc71
 	}
-	
+
 	body .options .option:nth-child(5) {
 		--defaultBackground: #5d9cec
 	}
-	
+
 	body .options .option:nth-child(6) {
 		--defaultBackground: #ac92ec
 	}
-	
+
 	body .options .option.active {
 		flex-grow: 10000;
 		transform: scale(0.95);
@@ -374,41 +424,41 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE    
 		border-radius: 40px;
 		background-size: auto 100%
 	}
-	
+
 	body .options .option.active .shadow {
 		box-shadow: inset 0 -120px 120px -120px #000, inset 0 -120px 120px -100px #000
 	}
-	
+
 	body .options .option.active .label {
 		bottom: 20px;
 		left: 20px
 	}
-	
+
 	body .options .option.active .label .info>div {
 		left: 0;
 		opacity: 1
 	}
-	
+
 	body .options .option:not(.active) {
 		flex-grow: 1;
 		border-radius: 30px
 	}
-	
+
 	body .options .option:not(.active) .shadow {
 		bottom: -40px;
 		box-shadow: inset 0 -120px 0 -120px #000, inset 0 -120px 0 -100px #000
 	}
-	
+
 	body .options .option:not(.active) .label {
 		bottom: 10px;
 		left: 10px
 	}
-	
+
 	body .options .option:not(.active) .label .info>div {
 		left: 20px;
 		opacity: 0
 	}
-	
+
 	body .options .option .shadow {
 		position: absolute;
 		bottom: 0;
@@ -417,7 +467,7 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE    
 		height: 120px;
 		transition: .5s cubic-bezier(.05, .61, .41, .95)
 	}
-	
+
 	body .options .option .label {
 		display: flex;
 		position: absolute;
@@ -425,7 +475,7 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE    
 		height: 40px;
 		transition: .5s cubic-bezier(.05, .61, .41, .95)
 	}
-	
+
 	body .options .option .label .icon {
 		display: flex;
 		flex-direction: row;
@@ -438,7 +488,7 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE    
 		background-color: #fff;
 		color: var(--defaultBackground)
 	}
-	
+
 	body .options .option .label .info {
 		display: flex;
 		flex-direction: column;
@@ -447,17 +497,17 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE    
 		color: #fff;
 		white-space: pre
 	}
-	
+
 	body .options .option .label .info>div {
 		position: relative;
 		transition: .5s cubic-bezier(.05, .61, .41, .95), opacity .5s ease-out
 	}
-	
+
 	body .options .option .label .info .main {
 		font-weight: 700;
 		font-size: 1.2rem
 	}
-	
+
 	body {
 		background-color: #08090A;
 		background-attachment: fixed;
@@ -467,7 +517,7 @@ MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE    
 		height: 100vh;
 		background-color: rgba(0, 0, 0, .1)
 	}
-	
+
 	body {
 		  background-image: url(img/Bodyback.jpg); }
 }
