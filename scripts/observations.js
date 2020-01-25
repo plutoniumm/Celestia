@@ -12,12 +12,6 @@ var observations = [
     subtext:"We’re a bunch of avid readers, funny writers, debaters, loony comedians and more. We value the ability to take a joke higher than the ability to crack one. We find humour in the strangest little things. As far as mixing work and play is concerned, we have thin lines between the two.",
 },
 {
-    backgrounds: "./img/eclipse.jpeg",
-    Name:"Eclipses",
-    icon: "far fa-circle",
-    subtext:"We’re a bunch of avid readers, funny writers, debaters, loony comedians and more. We value the ability to take a joke higher than the ability to crack one. We find humour in the strangest little things. As far as mixing work and play is concerned, we have thin lines between the two.",
-},
-{
     backgrounds: "./img/meteors.jpeg",
     Name:"Meteor Showers",
     icon: "fas fa-meteor",
