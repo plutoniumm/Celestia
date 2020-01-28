@@ -6,8 +6,9 @@ Nav =`
 <a href="index.html">Index</a>
 <a href="events.html">Events</a>
 <a href="observations.html">Observations</a>
-<a href="about.html">About</a>
 <a href="talks.html">Talks</a>
+<a href="projects.html">Projects</a>
+<a href="about.html">About</a>
 </div>
 
 <div id="main">
