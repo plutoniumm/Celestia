@@ -62,7 +62,7 @@
      float: left;
      border: 2px dashed #d4d4d4;
      border-radius: 25px;
-     padding: 15px;
+     padding: 3%;
      position: relative;
      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
      background: rgba(255, 255, 255, 0);
@@ -230,7 +230,7 @@ sup {
 	float: left;
 	border: 2px dashed #d4d4d4;
 	border-radius: 25px;
-	padding: 15px;
+	padding: 1%;
 	position: relative;
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, .175);
 	background: rgba(255, 255, 255, 0);
@@ -327,6 +327,30 @@ i {
 }
 
 
-  body {
-    background-image: url(img/Bodyback.jpg); }
+body {
+  background-image: url(img/Bodyback.jpg); }
 
+@media only screen and (max-width: 768px) {
+  .timeline > li > .timeline-panel {
+    /* position: absolute; */
+    left: 40px;
+    width: 85%;
+  }
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: left;
+    width: 85%;
+  }
+  .timeline > li > .timeline-panel::after{
+    display: none;
+  }
+  .timeline > li > .timeline-panel::before{
+    display: none;
+  }
+  .timeline:before {
+    left: 30px;
+  }
+  .timeline > li > .timeline-badge{
+    left: 30px;
+  }
+
+}
