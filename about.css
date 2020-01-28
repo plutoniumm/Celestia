@@ -1,8 +1,9 @@
 #particles-js{
+  position: fixed;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.1);
-  position: fixed;
+  z-index: -1;
 }
 
 .text{
@@ -201,7 +202,7 @@ body {
   overflow: auto;
   background-color: #08090A;
   background-attachment: fixed;
-  background-image: url(img/Bodyback.jpg); 
+  background-image: url(img/Bodyback.jpg);
 }
 
 @media only screen and (max-width: 768px) {
