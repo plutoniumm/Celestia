@@ -14,6 +14,20 @@
     background-color:hsla(0, 0%, 100%, .08);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
+
+    height: 100%; 
+    width: 0; 
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.background{
+    background-color: rgba(51, 51, 51, 0.95);
 }
 
 .sidebar a{
@@ -46,7 +60,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(51, 51, 51, 0.5);
+    background-color: rgba(255, 255, 255, .05);
     color: white;
     text-align: center;
     height: 35px;
