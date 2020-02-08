@@ -354,7 +354,7 @@ body {
   height: 210em;
   margin-top: -105em;
   margin-left: -105em; }
-  
+
   .set-speed dl.infos dd span:after {
   content: 'Orbit Velocity'; }
 
@@ -913,7 +913,7 @@ body {
   background-image: url(img/Back.jpg); }
 
 #sun {
-  background-image: url(img/sun.jpg);}
+  background-image: url(img/Sun.jpg);}
 
 #mercury .planet {
   background-image: url(img/Mercury.jpg); }
