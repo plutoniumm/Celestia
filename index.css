@@ -23,6 +23,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, a, blo
   -webkit-backdrop-filter: blur(5px);
   background-color: rgba(0, 0, 0, 0.5);
   transition: all 0.3s;
+  text-transform: capitalize;
 }
 
 #button:hover{
@@ -59,7 +60,8 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d; }
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;}
 
 .orbit {
   position: absolute;
@@ -67,18 +69,18 @@ body {
   left: 50%;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -moz-animation-name: orbit;
   animation-name: orbit;
   animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
   animation-timing-function: linear; }
 
 .orbit .orbit {
-  animation-name: suborbit; }
-
-#solar-system .pos{
-  animation-name: inverse;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  -moz-animation-name: suborbit;
+  animation-name: suborbit;
 }
 
 .pos {
@@ -88,7 +90,14 @@ body {
   height: 2em;
   margin-top: -1em;
   margin-left: -1em;
-  transform-style: preserve-3d; }
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -moz-animation-name: invert;
+  animation-name: invert;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  animation-timing-function: linear; }
 
 #sun, .planet, #earth .moon {
   position: absolute;
@@ -99,20 +108,22 @@ body {
   margin-top: -0.5em;
   margin-left: -0.5em;
   border-radius: 50%;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
 
 #sun {
   background-color: #FB7209;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 0 60px rgba(255, 160, 60, 0.4);
-  opacity: 1;}
+  box-shadow: 0 0 60px rgba(255, 160, 60, 0.4);}
 
 .planet {
   background-color: #202020;
   background-repeat: no-repeat;
   background-size: cover;
+  -moz-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
   animation-timing-function: linear; }
 
 .ring {
@@ -127,7 +138,9 @@ body {
   margin-top: -1em;
   margin-left: -1em;
   border: 0.3em solid rgba(160, 147, 130, 0.7);
+  -moz-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
   animation-timing-function: linear; }
 
 #saturn .ring:after {
@@ -176,29 +189,37 @@ body {
 
 @keyframes orbit {
   0% {
+    -moz-transform: rotateZ(0deg);
     transform: rotateZ(0deg); }
 
   100% {
+    -moz-transform: rotateZ(-360deg);
     transform: rotateZ(-360deg); } }
 
 @keyframes suborbit {
   0% {
+    -moz-transform: rotateX(90deg) rotateZ(0deg);
     transform: rotateX(90deg) rotateZ(0deg); }
 
   100% {
+    -moz-transform: rotateX(90deg) rotateZ(-360deg);
     transform: rotateX(90deg) rotateZ(-360deg); } }
 
-@keyframes inverse {
+@keyframes invert {
   0% {
+    -moz-transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
     transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg); }
 
   100% {
+    -moz-transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
     transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg); } }
 
 .view-3D.zoom-large #sun {
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
 
 .view-3D.zoom-large .orbit {
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
 
 .view-3D #solar-system {
@@ -212,6 +233,7 @@ body {
 
 .view-3D .planet,
 .view-3D .moon {
+  -moz-transform: rotateX(0deg);
   transform: rotateX(0deg); }
 
 .zoom-large #solar-system {
@@ -229,46 +251,55 @@ body {
 #mercury .pos,
 #mercury .planet,
 #mercury.orbit {
+  -moz-animation-duration: 2.89016s;
   animation-duration: 2.89016s; }
 
 #venus .pos,
 #venus .planet,
 #venus.orbit {
+  -moz-animation-duration: 7.38237s;
   animation-duration: 7.38237s; }
 
 #earth .pos,
 #earth .planet,
 #earth.orbit {
+  -moz-animation-duration: 12.00021s;
   animation-duration: 12.00021s; }
 
 #earth .orbit .pos,
 #earth .orbit {
+  -moz-animation-duration: 0.89764s;
   animation-duration: 0.89764s; }
 
 #mars .pos,
 #mars .planet,
 #mars.orbit {
+  -moz-animation-duration: 22.57017s;
   animation-duration: 22.57017s; }
 
 #jupiter .pos,
 #jupiter .planet,
 #jupiter.orbit {
+  -moz-animation-duration: 142.35138s;
   animation-duration: 142.35138s; }
 
 #saturn .pos,
 #saturn .planet,
 #saturn.orbit,
 #saturn .ring {
+  -moz-animation-duration: 353.36998s;
   animation-duration: 353.36998s; }
 
 #uranus .pos,
 #uranus .planet,
 #uranus.orbit {
+  -moz-animation-duration: 1008.20215s;
   animation-duration: 1008.20215s; }
 
 #neptune .pos,
 #neptune .planet,
 #neptune.orbit {
+  -moz-animation-duration: 1977.49584s;
   animation-duration: 1977.49584s; }
 
 .scale-stretched #sun {
@@ -392,6 +423,7 @@ body {
   top: -1%; }
 
 #mercury .planet {
+  -moz-animation-name: shadow-mercury;
   animation-name: shadow-mercury; }
 
 
@@ -430,6 +462,7 @@ body {
   top: 50%; }
 
 #venus .planet {
+  -moz-animation-name: shadow-venus;
   animation-name: shadow-venus; }
 
 @keyframes shadow-venus {
@@ -467,6 +500,7 @@ body {
   top: 50%; }
 
 #earth .planet {
+  -moz-animation-name: shadow-earth;
   animation-name: shadow-earth; }
 
 @keyframes shadow-earth {
@@ -509,6 +543,7 @@ body {
   top: 100%; }
 
 #mars .planet {
+  -moz-animation-name: shadow-mars;
   animation-name: shadow-mars; }
 
 @keyframes shadow-mars {
@@ -546,6 +581,7 @@ body {
   top: 50%; }
 
 #jupiter .planet {
+  -moz-animation-name: shadow-jupiter;
   animation-name: shadow-jupiter; }
 
 @keyframes shadow-jupiter {
@@ -583,6 +619,7 @@ body {
   top: 50%; }
 
 #saturn .planet {
+  -moz-animation-name: shadow-saturn;
   animation-name: shadow-saturn; }
 
 @keyframes shadow-saturn {
@@ -616,7 +653,8 @@ body {
 
 /* --------------------------------------------------------------------------- saturn ring */
 
-#saturn .ring           { animation-name:     shadow-saturn-ring; }
+#saturn .ring           { -moz-animation-name: shadow-saturn-ring;
+  animation-name:     shadow-saturn-ring; }
 
 @keyframes shadow-saturn-ring{ 0%   { box-shadow: inset -16px  0      4px   rgba(20, 40, 50, 0.45); opacity: .4; }
                   25%    { box-shadow: inset -5px   -30px   12px  rgba(20, 40, 50, 0.3);  opacity: 1; }
@@ -635,6 +673,7 @@ body {
   top: 50%; }
 
 #uranus .planet {
+  -moz-animation-name: shadow-uranus;
   animation-name: shadow-uranus; }
 
 @keyframes shadow-uranus {
@@ -672,6 +711,7 @@ body {
   top: 0; }
 
 #neptune .planet {
+  -moz-animation-name: shadow-neptune;
   animation-name: shadow-neptune; }
 
 @keyframes shadow-neptune {
@@ -714,8 +754,11 @@ dl.infos {
   margin-top: -90%;
   margin-left: 90%;
   padding-left: 100%;
+  -moz-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
   transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -moz-transform: rotateX(90deg);
   transform: rotateX(90deg); }
 
 dl.infos:before {
@@ -850,10 +893,10 @@ h1 span, #sedscelestia h1 a {
 .planet,
 .satelite,
 .ring {
-  transition-property: width, height, top, left, margin-left, margin-top, webkit-transform; }
+  transition-property: width, height, top, left, margin-left, margin-top, -webkit-transform, -moz-transform; }
 
 #sun, .icon {
-  transition-property: width, height, webkit-transform; }
+  transition-property: width, height, -webkit-transform; }
 
 #solar-system,
 #sun,

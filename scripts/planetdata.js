@@ -42,8 +42,8 @@ function system(body){
               </div>
             </div>
       </div>
-      `
-  
+    `
+
   }
 
 document.getElementById("insystem").innerHTML = `
@@ -54,7 +54,7 @@ function dataz(body){
       return `
       <li><a id="button" class="${body.Planet}" title="${body.Planet}" href="#${body.Planet}speed">${body.Planet}</a></li>
       `
-  
+
 }
 
 document.getElementById("planetlist").innerHTML = `

@@ -11,9 +11,10 @@ Nav =`
   <a href="about.html">About</a>
 </div>
 <div id="main">
-  <button style="font-size: 20px;  cursor: pointer;  background-color: rgba(255, 0, 0, 0);  color: white;  padding: 10px 15px;  border: none;" class="openbtn" onclick="openNav()">&#9776; Sidebar</button>
+  <button style="font-size: 20px;  cursor: pointer;  background-color: rgba(255, 0, 0, 0);  color: white;  padding: 10px 15px;  border: none;" class="openbtn" onclick="openNav()">&#9776;</button>
 </div>
 `
+
 document.getElementById("nav-barr").innerHTML = Nav;
 document.getElementById("footer").innerHTML = `<p style="padding:5px;">© 2020 Copyright: Footer</p>`;
 
