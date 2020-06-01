@@ -1,0 +1,2 @@
+# Celestia
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b8f326f8168d4f71961ffe18b5b75898)](https://app.codacy.com/manual/manavseksaria/Celestia?utm_source=github.com&utm_medium=referral&utm_content=plutoniumblast/Celestia&utm_campaign=Badge_Grade_Dashboard)
