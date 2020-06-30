@@ -1,35 +1,27 @@
 var coordinators = [
     {
-  Name:"Venugopalan Iyengar",
+  Name:"Hrutwick Sawant",
   post: "President",
 },
 {
-    Name:"Vidit Parab",
+    Name:"Harshvardhan Chandirasekar",
     post: "Vice President",
 },
 {
-    Name:"Saransh Gokhale",
-    post: "Treasurer",
+    Name:"Paurush Punyasheel",
+    post: "Secretary",
 },
 {
-    Name:"Soham Deshpande",
-    post: "Sub Coordinator",
+    Name:"Bhuvan S V",
+    post: "Head of Lectures",
 },
 {
-    Name:"Aaditee Juyal",
-    post: "Lectures Head",
+    Name:"Ankit Verma",
+    post: "Head of Projects",
 },
 {
-    Name:"Avdhoot Bhandare",
-    post: "Observations Head",
-},
-{
-    Name:"Harsh -vardhan C",
-    post: "Projects Head",
-},
-{
-    Name:"Devesh Dimble",
-    post: "Publicity Head",
+    Name:"Murudkar Kaustubh Mandar",
+    post: "Head of Observations",
 },
 {
     Name:"Shirin Kaushik",
