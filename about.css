@@ -52,9 +52,16 @@
   margin-left: 150px;
 }
 
+.container{
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+  -moz-backdrop-filter:blur(1em);
+}
+
 .about-flaunt{
-  -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+  -moz-backdrop-filter:blur(1em);
   background-color: rgba(255, 255, 255, .05);
   position: relative;
   width: 100%;
