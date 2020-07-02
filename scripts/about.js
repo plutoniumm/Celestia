@@ -28,6 +28,10 @@ var coordinators = [
     post: "Vice President <br> SEDS India",
 },
 {
+    Name:"Aditya Majali",
+    post: "Treasurer <br> SEDS India",
+},
+{
     Name:"Dhruv Nagpal",
     post: "Projects Head <br> SEDS India",
 }
