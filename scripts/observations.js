@@ -3,25 +3,25 @@ var observations = [
   backgrounds: "./img/allnight.jpeg",
   Name:"All Night Observations",
   icon: "fas fa-moon",
-  subtext:"Joining drama as a student consultant is a great way to boost your CV with relevant work- and consulting experience, while expanding your professional network. Our consultants get a hands on experience working with clients on a wide range of topics and issues employing strategies to achieve the the firms objective. Moreover, you will expand your social network by meeting like-minded students from different countries, study backgrounds and universities.",
+  
 },
 {
     backgrounds: "./img/stpty.JPG",
     Name:"Star Party",
     icon: "fas fa-sun",
-    subtext:"We’re a bunch of avid readers, funny writers, debaters, loony comedians and more. We value the ability to take a joke higher than the ability to crack one. We find humour in the strangest little things. As far as mixing work and play is concerned, we have thin lines between the two.",
+    
 },
 {
     backgrounds: "./img/meteors.jpeg",
     Name:"Meteor Showers",
     icon: "fas fa-meteor",
-    subtext:"We’re a bunch of avid readers, funny writers, debaters, loony comedians and more. We value the ability to take a joke higher than the ability to crack one. We find humour in the strangest little things. As far as mixing work and play is concerned, we have thin lines between the two.",
+    
 },
 {
     backgrounds: "./img/bodies.JPG",
     Name:"Celestial Bodies",
     icon: "fas fa-globe-europe",
-    subtext:"We’re a bunch of avid readers, funny writers, debaters, loony comedians and more. We value the ability to take a joke higher than the ability to crack one. We find humour in the strangest little things. As far as mixing work and play is concerned, we have thin lines between the two.",
+    
 }
 
 ];
@@ -37,7 +37,7 @@ function Obs(observations){
                         </div>
                         <div class="info">
                            <div class="main">${observations.Name}</div>
-                           <div class="sub">${observations.subtext}</div>
+                           
                         </div>
                      </div>
                   </div>

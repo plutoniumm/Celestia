@@ -96,13 +96,14 @@ const events = [
       text:"Best viewing time for Mercury and Venus."
       },
       {
-      class:"timeline-inverted",
+      class:"undefined",
       color:"sky",
       daticon:"6/7",
       title:"Eta Aquarids Shower",
       date:"6/7<sup>th</sup> March",
       text:"Better than average, 60 meteors/hr."
-      }];
+      }
+    ];
 
 function list(body){
       return `
